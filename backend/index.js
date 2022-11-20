@@ -12,9 +12,6 @@ const db = mysql.createConnection({
     database:"test"
 }) 
 
-// ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'codeup';
-// 
-
 app.get("/", (req, res) => {
     res.json("hello this is the backend")
 })
