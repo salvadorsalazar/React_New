@@ -11,7 +11,7 @@ const db = mysql.createConnection({
     password: "codeup",
     database:"test"
 }) 
-
+// 
 app.get("/", (req, res) => {
     res.json("hello this is the backend")
 })
